@@ -26,6 +26,7 @@ class MyConfig extends RepositoryRestConfigurerAdapter {
         config.exposeIdsFor(Airline.class);
         config.exposeIdsFor(Escale.class);
         config.exposeIdsFor(Vol.class);
+        System.out.println("Hey form Sub-Git");
     }
 }
 
